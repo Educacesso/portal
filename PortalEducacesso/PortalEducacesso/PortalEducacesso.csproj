@@ -57,8 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.aspx" />
-    <Content Include="masterPageEduc.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -67,30 +65,55 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\estilo.css" />
+    <Content Include="about.html" />
+    <Content Include="academics.html" />
+    <Content Include="admissions.html" />
+    <Content Include="contact.html" />
+    <Content Include="courses.html" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\style.css" />
+    <Content Include="images\admi-1.jpg" />
+    <Content Include="images\admi-2.jpg" />
+    <Content Include="images\admi-3.jpg" />
+    <Content Include="images\arrows.jpg" />
+    <Content Include="images\arw.png" />
+    <Content Include="images\arws.png" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\contact-sprit.png" />
+    <Content Include="images\education.jpg" />
+    <Content Include="images\footer-sprit.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\menu-icon.png" />
+    <Content Include="images\p-1.jpg" />
+    <Content Include="images\p-2.jpg" />
+    <Content Include="images\p-3.jpg" />
+    <Content Include="images\p-4.jpg" />
+    <Content Include="images\p-5.jpg" />
+    <Content Include="images\p-6.jpg" />
+    <Content Include="images\p-7.jpg" />
+    <Content Include="images\p-8.jpg" />
+    <Content Include="images\pc-1.jpg" />
+    <Content Include="images\pc-2.jpg" />
+    <Content Include="images\st-1.jpg" />
+    <Content Include="images\st-2.jpg" />
+    <Content Include="images\st-4.jpg" />
+    <Content Include="images\top.png" />
+    <Content Include="index.html" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery.contentcarousel.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.mixitup.min.js" />
+    <Content Include="js\jquery.mousewheel.js" />
+    <Content Include="js\jquery.wmuSlider.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\responsive-nav.js" />
+    <Content Include="js\responsiveslides.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="masterPageEduc.Master.cs">
-      <DependentUpon>masterPageEduc.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="masterPageEduc.Master.designer.cs">
-      <DependentUpon>masterPageEduc.Master</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
