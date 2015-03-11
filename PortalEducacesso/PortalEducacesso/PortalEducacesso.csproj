@@ -68,6 +68,7 @@
     <Content Include="about.html" />
     <Content Include="academics.html" />
     <Content Include="admissions.html" />
+    <Content Include="asp\cadastroCurso.aspx" />
     <Content Include="contact.html" />
     <Content Include="courses.html" />
     <Content Include="css\bootstrap.css" />
@@ -111,6 +112,16 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="asp\cadastroCurso.aspx.cs">
+      <DependentUpon>cadastroCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="asp\cadastroCurso.aspx.designer.cs">
+      <DependentUpon>cadastroCurso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dao\ConnectionFactory.cs" />
+    <Compile Include="dao\CursoDAO.cs" />
+    <Compile Include="modelo\Curso.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
