@@ -19,7 +19,7 @@ namespace PortalEducacesso.dao
         {
             try
             {
-                conn = new SqlConnection("Data Source=localhost; Initial Catalog=educacesso; Integrated Security=True");
+                conn = new SqlConnection("Data Source=COMPUTADOR\SQLEXPRESS; Initial Catalog=educacesso; Integrated Security=True");
                 conn.Open();
                 return conn;
             }

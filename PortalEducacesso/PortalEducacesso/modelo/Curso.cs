@@ -8,13 +8,14 @@ namespace PortalEducacesso.modelo
     public class Curso
     {
         // Atributos        
-        private String nomeCurso;
+        private String nome;
 
-        public String NomeCurso
+        public String Nome
         {
-            get { return nomeCurso; }
-            set { nomeCurso = value; }
+            get { return nome; }
+            set { nome = value; }
         }
+
         private String descricao;
 
         public String Descricao
@@ -29,8 +30,5 @@ namespace PortalEducacesso.modelo
             get { return categoria; }
             set { categoria = value; }
         }
-
-        // Métodos
-
     }
 }
